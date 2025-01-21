@@ -8,5 +8,5 @@ You can find the project here: [Resume][(https://github.com/mikelarryzim143/Basi
 
 **GitHub URL:** [Resume](https://github.com/mikelarryzim143/Basic-HTML-Website)
 
-](https://github.com/mikelarryzim143/Basic-HTML-Website)
-https://roadmap.sh/projects/single-page-cv
+(https://github.com/mikelarryzim143/Basic-HTML-Website)
+https://roadmap.sh/projects/basic-html-website
