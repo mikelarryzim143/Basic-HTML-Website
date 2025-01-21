@@ -1,7 +1,89 @@
-body{
-    background-color: green;
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin: auto;
+    width: 90vw;
+    
+    
 }
 
-h1{
-    font-size: xx-large;
+nav ul{
+    width: 250px;
+    display: flex;
+    
+    list-style:none;
+    
+    justify-content: space-around;
+}
+nav li a{
+    text-decoration: none;
+    
+}
+
+nav img{
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+    padding-right: 6px;
+}
+.name{
+    display: flex;
+}
+.jumbotron{
+    
+    height: 400px;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    
+    display: flex;
+    justify-content:center;
+    
+    margin:auto;
+    
+    width:90vw;
+
+}
+
+.projects{
+   
+    border: 2px solid black;
+    
+}
+.projects p{
+    
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:6px;
+    
+    
+    list-style: none;
+    border-bottom: 2px solid black;
+    
+    
+}
+
+.lines{
+    border-top:2px solid black;
+}
+.exp{
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+}
+.education{
+   border: 2px solid black;
+}
+
+
+.grid{
+    
+    width: 30%;
 }
