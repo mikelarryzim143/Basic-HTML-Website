@@ -1,5 +1,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+body{
+    font-family:"Roboto" ;
+    font-size:medium;
+    
+}
 nav{
     display:flex;
     justify-content:space-between;
@@ -19,11 +26,16 @@ nav ul{
 }
 nav li a{
     text-decoration: none;
+    color: rgb(29, 29, 29);
     
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: aqua;
 }
 
 nav img{
-    width: 60px;
+    width: 50px;
     height: auto;
     object-fit: cover;
     padding-right: 6px;
@@ -35,6 +47,14 @@ nav img{
 .name h2{
     font-family:"Playwrite IN"  ;
     font-size:medium;
+    
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+.name a:hover{
+    color: aqua;
 }
 .jumbotron{
     
@@ -52,6 +72,7 @@ nav img{
 .info h2, h3{
     font-family: "Playwrite IN";
     font-size: small;
+    text-decoration: underline;
 }
 .info{
     
@@ -229,3 +250,11 @@ footer p{
         font-size: 14px;
     }
 }
+
+/*for dark mode*/
+@media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #121212;
+      --text-color: #ffffff;
+    }
+  }
